@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp From</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>SignUp</h1>
+      <form method="POST" action="#">
+        <div class="text_field">
+          <input type="text" id="fname" required placeholder="Full name" />
+        </div>
+        <div class="text_field">
+          <input type="text" id="email" required placeholder="Email" />
+        </div>
+        <div class="text_field">
+          <input type="password" id="pass" required placeholder="password" />
+        </div>
+        <div class="text_field">
+          <input
+            type="password"
+            id="conpass"
+            required
+            placeholder="Confirm password"
+          />
+        </div>
+        <div class="text_field">
+          <input type="date" id="dob" required placeholder="DD/MM/YYYY" />
+        </div>
+        <div class="text_field">
+          <label>Student</label>
+          <input type="radio" name="foo" value="1" />
+          <label>Employee</label>
+          <input type="radio" name="foo" value="2" />
+        </div>
+        <div class="text_field">
+          <input type="checkbox" id="t1" name="Terms" value="Conditions" />
+          <label for="Terms">I agree all the Terms and Conditions</label>
+        </div>
+        <div class="btn">
+          <button type="submit">SignUp</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

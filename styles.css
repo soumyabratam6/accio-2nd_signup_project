@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  background-color: black;
+  width: 580px;
+  margin: 10px;
+  background-size: cover;
+  border: 1px solid gray;
+}
+form {
+  margin: 10px;
+  text-align: left;
+}
+.text_field input[type="text"] {
+  display: block;
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  background: none;
+  color: aliceblue;
+}
+.text_field input[type="password"] {
+  display: block;
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  background: none;
+  color: aliceblue;
+}
+.text_field input[type="date"] {
+  display: block;
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  background: none;
+  color: aliceblue;
+}
+::placeholder {
+  color: aliceblue;
+}
+button {
+  width: 110px;
+  height: 20px;
+  font-size: 10px;
+}
+.text_field input[type="radio"] {
+  display: inline;
+  background: none;
+  color: aliceblue;
+}
+
+.text_field input[type="checkbox"] {
+  display: inline;
+  background: none;
+  color: aliceblue;
+  margin: 10px;
+}
+.text_field label {
+  color: aliceblue;
+  margin: 10px;
+  font: size 10px;
+}
+.main h1 {
+  color: aliceblue;
+  font-size: 25px;
+  padding-left: 25px;
+}
